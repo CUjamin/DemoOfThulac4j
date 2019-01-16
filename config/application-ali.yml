@@ -1,0 +1,21 @@
+########################################################
+### server setting
+########################################################
+server:
+  port: 8099
+logging:
+  config: file:config/logback.xml
+
+########################################################
+### spring mvc
+########################################################
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+
+
+swagger:
+  method:
+    submit: true
+

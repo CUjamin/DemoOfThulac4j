@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: ali
+module:
+  build:
+    artifactId: nlp_api
